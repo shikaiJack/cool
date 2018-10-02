@@ -4,6 +4,7 @@ var { buildSchema } = require('graphql');
 var customDirectives = require('graphql-custom-directives');
 
 // Construct a schema, using GraphQL schema language
+// Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
   type Query {
     hello: String
